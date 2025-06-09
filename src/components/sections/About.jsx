@@ -18,14 +18,14 @@ export const About = () => {
     >
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
-          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
+          <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-red-500 to-cyan-400 bg-clip-text text-transparent text-center">
             {" "}
             About Me
           </h2>
 
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              Passionate student developer with a strong foundation in web Development
+              Passionate student, developer with a strong foundation in web Development
               and a keen interest in building real-world applications.Eager to learn,
               grow, and contribute to innovate projects.
 
@@ -42,7 +42,7 @@ export const About = () => {
                   {frontendSkills.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                      className="bg-red-500/10 text-red-500 py-1 px-3 rounded-full text-sm hover:bg-red-500/20 
                                     hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition
                     "
                     >
@@ -58,7 +58,7 @@ export const About = () => {
                   {backendSkills.map((tech, key) => (
                     <span
                       key={key}
-                      className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
+                      className="bg-red-500/10 text-red-500 py-1 px-3 rounded-full text-sm hover:bg-red-500/20 
                                     hover:shadow-[0_2px_8px_rgba(59,130,2246,0.2)] transition
                     "
                     >
@@ -79,7 +79,7 @@ export const About = () => {
                   (2022-2026)
                 </li>
                 <li>
-                  <strong> MPC </strong> - SR-Edu
+                  <strong> MPC </strong> - Resonance
                   (2020-2022)
                 </li>
               </ul>
